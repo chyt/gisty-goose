@@ -44,7 +44,8 @@ KNOWN_ARTICLE_CONTENT_PATTERNS = [
     {'attr': 'itemprop', 'value': 'articleBody'},
     {'attr': 'class', 'value': 'post-content'},
     {'attr': 'class', 'value': 'g-content'},
-    {'tag': 'article'},
+    {'tag': 'article'}, {'attr': 'property=articleBody'},
+
 ]
 
 
